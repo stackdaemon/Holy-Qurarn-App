@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Holy Quarn App</title>
-<link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="shortcut icon"
+      href="./assest/360_F_336714086_kGukw1LyGsNguAclGU0mWa3XQG1ZY4E9-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -27,78 +32,174 @@
       rel="stylesheet"
     />
   </head>
-  <body  class="max-w-lg mx-auto  ">
+  <body class="max-w-lg mx-auto">
     <header>
-      <div class="navbar bg-base-100 shadow-sm px-8 max-w-lg  mx-auto " >
-  <div class="flex-none bg mr-5">
-    <button class=" btn-square btn-ghost cursor-pointer">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-5 w-5 stroke-current bg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg>
-    </button>
-  </div>
-  <div class="flex-1">
-    <img class="w-[90px] " src="./assest/360_F_336714086_kGukw1LyGsNguAclGU0mWa3XQG1ZY4E9-removebg-preview.png" alt="">
-  </div>
-  <div class="flex-none">
-    <button class="btn-square btn-ghost cursor-pointer">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-5 w-5 stroke-current"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path> </svg>
-    </button>
-  </div>
-</div>
+      <div class="navbar bg-base-100 shadow-sm px-8 max-w-lg mx-auto">
+        <div class="flex-none bg mr-5">
+          <button class="btn-square btn-ghost cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current bg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1">
+          <img
+            class="w-[90px]"
+            src="./assest/360_F_336714086_kGukw1LyGsNguAclGU0mWa3XQG1ZY4E9-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="flex-none">
+          <button class="btn-square btn-ghost cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
     </header>
     <main>
-     <section class="border-2 border-gray-300 rounded-xl mt-1">
-          <div class="p-1 ">
-               <img class="rounded-md" src="./assest/online-quran-.jpg" alt="">
+      <section class="border-2 border-gray-300 rounded-xl mt-1">
+        <div class="p-1">
+          <img class="rounded-md" src="./assest/online-quran-.jpg" alt="" />
+        </div>
+      </section>
+      <section class="mt-2">
+        <div class="flex gap-4 overflow-x-auto scrollbar-hide p-2 m-1">
+          <button class="btn ring-1 text-green-700 text-sm shadow-md">
+            আল-ফাতিহা
+          </button>
+          <button class="btn ring-1 text-green-700 text-sm shadow-lg">
+            আল-বাকারাহ
+          </button>
+          <button class="btn ring-1 text-green-700 text-sm shadow-lg">
+            আল-কাহফ
+          </button>
+          <button class="btn ring-1 text-green-700 text-sm shadow-lg">
+            ইয়াসিন
+          </button>
+          <button class="btn ring-1 text-green-700 text-sm shadow-lg">
+            আর-রাহমান
+          </button>
+          <button class="btn ring-1 text-green-700 text-sm shadow-lg">
+            আল-ওয়াকিয়াহ
+          </button>
+          <button class="btn ring-1 text-green-700 text-sm shadow-lg">
+            আল-মুলক
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="grid grid-cols-3 gap-4 text-center m-4">
+          <div
+            class="bg-gray-100 pt-4 rounded-xl shadow-sm hover:shadow-md transition duration-500"
+          >
+            <a href="suraName.html"
+              ><span
+                ><i class="fa-solid fa-book-open text-4xl text-green-700"></i
+              ></span>
+              <p class="text-sm font-bold mt-1 text-green-900">সুরা সমূহ</p></a
+            >
           </div>
-     </section>
-     <section class="mt-2 ">
-          <div class="flex gap-4 overflow-x-auto scrollbar-hide  p-2 m-1 ">
-               <button class="btn ring-1 text-green-700 text-sm shadow-md">আল-ফাতিহা</button>
-               <button class="btn ring-1 text-green-700 text-sm shadow-lg">আল-বাকারাহ</button>
-               <button class="btn ring-1 text-green-700 text-sm shadow-lg">আল-কাহফ</button>
-               <button class="btn ring-1 text-green-700 text-sm shadow-lg">ইয়াসিন</button>
-               <button class="btn ring-1 text-green-700 text-sm shadow-lg">আর-রাহমান</button>
-               <button class="btn ring-1 text-green-700 text-sm shadow-lg">আল-ওয়াকিয়াহ</button>
-               <button class="btn ring-1 text-green-700 text-sm shadow-lg">আল-মুলক</button>
+          <div
+            class="bg-gray-100 py-4 rounded-xl shadow-sm hover:shadow-md transition duration-500"
+          >
+            <a href="para.html">
+              <span
+                ><i class="fa-solid fa-book text-4xl text-green-700"></i></span>
+              <p class="text-sm font-bold mt-1 text-green-900">পারা সমূহ</p></a
+            >
           </div>
-     </section>
-     <section>
-      <div class="grid grid-cols-3 gap-4 text-center m-4 ">
-        <div class="bg-gray-100 pt-4 rounded-xl shadow-sm  hover:shadow-md transition duration-500 " >
-           <span ><i class="fa-solid fa-book-open text-4xl text-green-700"></i></span>
-           <p class="text-sm font-bold mt-1 text-green-900">সুরা সমূহ</p>
+          <div
+            class="bg-gray-100 py-4 rounded-xl shadow-sm hover:shadow-md transition duration-500"
+          >
+            <a href="">
+              <span
+              ><i
+                class="fa-solid fa-magnifying-glass-location text-4xl text-green-700"
+              ></i
+            ></span>
+            <p class="text-sm font-bold mt-1 text-green-900">পৃষ্ঠা সার্চ</p>
+            </a>
+          </div>
+          <div
+            class="bg-gray-100 py-4 rounded-xl shadow-sm hover:shadow-md transition duration-500"
+          >
+            <a href=""><span
+              ><i class="fa-solid fa-rotate-left text-4xl text-green-700"></i
+            ></span>
+            <p class="text-sm font-bold mt-1 text-green-900">সর্বশেষ পাঠিত</p></a>
+          </div>
+          <div
+            class="bg-gray-100 py-4 rounded-xl shadow-sm hover:shadow-md transition duration-500"
+          >
+            <a href=""><span
+              ><i class="fa-solid fa-book-bookmark text-4xl text-green-700"></i
+            ></span>
+            <p class="text-sm font-bold mt-1 text-green-900">বুকমার্ক</p></a>
+          </div>
+          <div
+            class="bg-gray-100 py-4 rounded-xl shadow-sm hover:shadow-md transition duration-500"
+          >
+            <a href=""><span
+              ><img
+                class="w-[45px] mx-auto"
+                src="./assest/tasbih_9700712.png"
+                alt=""
+            /></span>
+            <p class="text-sm font-bold mt-1 text-green-900">তাসবীহ</p></a>
+          </div>
         </div>
-        <div class="bg-gray-100 py-4 rounded-xl shadow-sm  hover:shadow-md transition duration-500" >
-           <span ><i class="fa-solid fa-book text-4xl text-green-700"></i></span>
-           <p class="text-sm font-bold mt-1 text-green-900">পারা সমূহ</p>
+      </section>
+      <section>
+        <div class="nameContainer"></div>
+      </section>
+      <footer class=" ">
+        <div
+          class="py-3 bg-green-800 flex gap-5 absolute bottom-0 justify-evenly w-full max-w-lg mx-auto"
+        >
+          <div>
+            <i
+              class="fa-solid fa-house-chimney text-2xl text-white cursor-pointer"
+            ></i>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-book-open text-2xl text-white cursor-pointer"
+            ></i>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-rotate-left text-2xl text-white cursor-pointer"
+            ></i>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-magnifying-glass-location text-2xl text-white cursor-pointer"
+            ></i>
+          </div>
         </div>
-        <div class="bg-gray-100 py-4 rounded-xl shadow-sm  hover:shadow-md transition duration-500" >
-           <span ><i class="fa-solid fa-magnifying-glass-location text-4xl text-green-700"></i></span>
-           <p class="text-sm font-bold mt-1 text-green-900"> পৃষ্ঠা সার্চ</p>
-        </div>
-        <div class="bg-gray-100 py-4 rounded-xl shadow-sm  hover:shadow-md transition duration-500" >
-           <span ><i class="fa-solid fa-rotate-left text-4xl text-green-700"></i></span>
-           <p class="text-sm font-bold mt-1 text-green-900"> সর্বশেষ পাঠিত</p>
-        </div>
-        <div class="bg-gray-100 py-4 rounded-xl shadow-sm hover:shadow-md transition duration-500" >
-           <span ><i class="fa-solid fa-book-bookmark text-4xl text-green-700"></i></span>
-           <p class="text-sm font-bold mt-1 text-green-900"> বুকমার্ক</p>
-        </div>
-        <div class="bg-gray-100 py-4 rounded-xl shadow-sm  hover:shadow-md transition duration-500" >
-           <span ><img class="w-[45px] mx-auto" src="./assest/tasbih_9700712.png" alt=""></span>
-           <p class="text-sm font-bold mt-1 text-green-900"> তাসবীহ</p>
-        </div>
-        
-      </div>
-     </section>
-     <footer class=" ">
-      <div class="py-3 bg-green-800 flex gap-5 absolute bottom-0 justify-evenly  w-full max-w-lg mx-auto">
-        <div><i class="fa-solid fa-house-chimney text-2xl text-white  cursor-pointer"></i></div>
-        <div><i class="fa-solid fa-book-open  text-2xl text-white cursor-pointer"></i></div>
-        <div><i class="fa-solid fa-rotate-left text-2xl text-white cursor-pointer"></i></div>
-        <div><i class="fa-solid fa-magnifying-glass-location text-2xl text-white cursor-pointer"></i></div>
-      </div>
-     </footer>
+      </footer>
     </main>
   </body>
 </html>

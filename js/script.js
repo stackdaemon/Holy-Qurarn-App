@@ -11,7 +11,7 @@ const displayName = (names) => {
     console.log(i.englishName);
     const newDiv =document.createElement("div");
     newDiv.innerHTML=`
-    <div class="flex justify-between items-center bg-gray-100 shadow-sm p-2 mt-4 px-6 ">
+    <div class="flex justify-between items-center bg-gray-100 shadow-sm p-2 mt-4 px-6 rounded-lg">
                     <div > <span class="font-bold text-xl bg-green-700  py-1 px-3 rounded-lg text-white flex justify-center items-center ">${i.number}</span></div>
                     <div >
                          <h3 class="text-xl font-bold">${i.englishName}</h3>
@@ -21,8 +21,6 @@ const displayName = (names) => {
                          <h3 class="font-bold">${i.name}</h3>
                     </div>
                </div>
-    
-    
     `;
     nameContainer.appendChild(newDiv)
   }

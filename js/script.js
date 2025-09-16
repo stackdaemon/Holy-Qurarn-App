@@ -1,5 +1,5 @@
 const loadData = () => {
-  const url = `http://api.alquran.cloud/v1/surah`;
+  const url = `https://api.alquran.cloud/v1/surah`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => displayName(data.data));
@@ -11,7 +11,7 @@ const displayName = (names) => {
     console.log(i.englishName);
     const newDiv =document.createElement("div");
     newDiv.innerHTML=`
-    <div class="flex justify-between items-center bg-gray-100 shadow-sm p-2 mt-4 px-10 ">
+    <div class="flex justify-between items-center bg-gray-100 shadow-sm p-2 mt-4 px-6 ">
                     <div > <span class="font-bold text-xl bg-green-700  py-1 px-3 rounded-lg text-white flex justify-center items-center ">${i.number}</span></div>
                     <div >
                          <h3 class="text-xl font-bold">${i.englishName}</h3>

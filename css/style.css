@@ -1,0 +1,14 @@
+*{
+     font-family: "Anek Bangla", sans-serif;
+}
+.bg{
+     background: transparent !important;
+}
+/* global.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}
